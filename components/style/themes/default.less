@@ -1,80 +1,80 @@
 @hd: 1px; // 基本单位
 
-// 支付宝钱包默认主题
+// 广州UCD能力中心APP设计规范
 // https://github.com/ant-design/ant-design-mobile/wiki/设计变量表及命名规范
 
 // 色彩
 // ---
 // 文字色
-@color-text-base: #000;                  // 基本
+@color-text-base: #333;                  // 基本
 @color-text-base-inverse: #fff;          // 基本 - 反色
-@color-text-secondary: #a4a9b0;          // 辅助色
+@color-text-secondary: #666;          // 辅助色
 @color-text-placeholder: #bbb;           // 文本框提示
 @color-text-disabled: #bbb;              // 失效
-@color-text-caption: #888;               // 辅助描述
+@color-text-caption: #999;               // 辅助描述
 @color-text-paragraph: #333;             // 段落
 @color-link: @brand-primary;             // 链接
 
 // 背景色
 @fill-base: #fff;                           // 组件默认背景
-@fill-body: #f5f5f9;                        // 页面背景
-@fill-tap: #ddd;                            // 组件默认背景 - 按下
-@fill-disabled: #ddd;                       // 通用失效背景
+@fill-body: #f5f5f5;                        // 页面背景
+@fill-tap: #e5e5e5;                            // 组件默认背景 - 按下
+@fill-disabled: #e5e5e5;                       // 通用失效背景
 @fill-mask: rgba(0, 0, 0, 0.4);              // 遮罩背景
-@color-icon-base: #ccc;                      // 许多小图标的背景，比如一些小圆点，加减号
-@fill-grey: #f7f7f7;
+@color-icon-base: #e5e5e5;                      // 许多小图标的背景，比如一些小圆点，加减号
+@fill-grey: #f0f0f0;
 
 // 透明度
 @opacity-disabled: 0.3;   // switch checkbox radio 等组件禁用的透明度
 
 // 全局/品牌色
-@brand-primary: #108ee9;
-@brand-primary-tap: #0e80d2;
+@brand-primary: #2196f3;
+@brand-primary-tap: #1b8edb;
 @brand-success: #6abf47;
-@brand-warning: #ffc600;
-@brand-error: #f4333c;
+@brand-warning: #ff9c04;
+@brand-error: #f5222d;
 @brand-important: #ff5b05;  // 用于小红点
-@brand-wait: #108ee9;
+@brand-wait: #2196f3;
 
 // 边框色
-@border-color-base: #ddd;
+@border-color-base: #bbb;
 
 // 字体尺寸
 // ---
 @font-size-icontext: 10 * @hd;
 @font-size-caption-sm: 12 * @hd;
-@font-size-base: 14 * @hd;
-@font-size-subhead: 15 * @hd;
-@font-size-caption: 16 * @hd;
+@font-size-base: 13 * @hd;
+@font-size-subhead: 14 * @hd;
+@font-size-caption: 15 * @hd;
 @font-size-heading: 17 * @hd;
 
 // 圆角
 // ---
 @radius-xs: 2 * @hd;
 @radius-sm: 3 * @hd;
-@radius-md: 5 * @hd;
-@radius-lg: 7 * @hd;
+@radius-md: 4 * @hd;
+@radius-lg: 6 * @hd;
 @radius-circle: 50%;
 
 // 边框尺寸
 // ---
 @border-width-sm: 1PX;
 @border-width-md: 1PX;
-@border-width-lg: 2 * @hd;
+@border-width-lg: 3 * @hd;
 
 // 间距
 // ---
 // 水平间距
-@h-spacing-sm: 5 * @hd;
+@h-spacing-sm: 4 * @hd;
 @h-spacing-md: 8 * @hd;
-@h-spacing-lg: 15 * @hd;
+@h-spacing-lg: 16 * @hd;
 
 // 垂直间距
-@v-spacing-xs: 3 * @hd;
+@v-spacing-xs: 4 * @hd;
 @v-spacing-sm: 6 * @hd;
-@v-spacing-md: 9 * @hd;
-@v-spacing-lg: 15 * @hd;
-@v-spacing-xl: 21 * @hd;
+@v-spacing-md: 8 * @hd;
+@v-spacing-lg: 16 * @hd;
+@v-spacing-xl: 20 * @hd;
 
 // 高度
 // ---
@@ -83,9 +83,9 @@
 
 // 图标尺寸
 // ---
-@icon-size-xxs: 15 * @hd;
+@icon-size-xxs: 16 * @hd;
 @icon-size-xs: 18 * @hd;
-@icon-size-sm: 21 * @hd;
+@icon-size-sm: 20 * @hd;
 @icon-size-md: 22 * @hd;       // 导航条上的图标、grid的图标大小
 @icon-size-lg: 36 * @hd;
 
@@ -100,11 +100,11 @@
 @actionsheet-item-font-size: 18 * @hd;
 
 // button
-@button-height: 47 * @hd;
-@button-font-size: 18 * @hd;
+@button-height: 44 * @hd;
+@button-font-size: 17 * @hd;
 
-@button-height-sm: 30 * @hd;
-@button-font-size-sm: 13 * @hd;
+@button-height-sm: 24 * @hd;
+@button-font-size-sm: 12 * @hd;
 
 @primary-button-fill: @brand-primary;
 @primary-button-fill-tap: @brand-primary-tap;
@@ -115,51 +115,51 @@
 @warning-button-fill: #e94f4f;
 @warning-button-fill-tap: #d24747;
 
-@link-button-fill-tap: #ddd;
-@link-button-font-size: 16 * @hd;
+@link-button-fill-tap: #e5e5e5;
+@link-button-font-size: 14 * @hd;
 
 // menu
 @menu-multi-select-btns-height: @button-height;
 
 // modal
-@modal-font-size-heading: 18 * @hd;
-@modal-button-font-size: 18 * @hd; // 按钮字号
-@modal-button-height: 50 * @hd; // 按钮高度
+@modal-font-size-heading: 17 * @hd;
+@modal-button-font-size: 17 * @hd; // 按钮字号
+@modal-button-height: 44 * @hd; // 按钮高度
 
 // list
-@list-title-height: 30 * @hd;
-@list-item-height-sm: 35 * @hd;
+@list-title-height: 36 * @hd;
+@list-item-height-sm: 36 * @hd;
 @list-item-height: 44 * @hd;
 
 // input
-@input-label-width: 17 * @hd;       // InputItem、TextareaItem 文字长度基础值
-@input-font-size: 17 * @hd;
-@input-color-icon: #ccc; // input clear icon 的背景色
+@input-label-width: 15 * @hd;       // InputItem、TextareaItem 文字长度基础值
+@input-font-size: 15 * @hd;
+@input-color-icon: #e5e5e5; // input clear icon 的背景色
 @input-color-icon-tap: @brand-primary;
 
 // tabs
 @tabs-color: @brand-primary;
-@tabs-height: 43.5 * @hd;
-@tabs-font-size-heading: 15 * @hd;
+@tabs-height: 36 * @hd;
+@tabs-font-size-heading: 26 * @hd;
 @tabs-ink-bar-height: @border-width-lg;
 
 // segmented-control
 @segmented-control-color: @brand-primary;  // 同时应用于背景、文字颜色、边框色
-@segmented-control-height: 27 * @hd;
+@segmented-control-height: 28 * @hd;
 @segmented-control-fill-tap: fade(@brand-primary, 0.1);
 
 // tab-bar
-@tab-bar-fill: #ebeeef;
-@tab-bar-height: 50 * @hd;
+@tab-bar-fill: #e5e5e5;
+@tab-bar-height: 48 * @hd;
 
 // toast
 @toast-fill: rgba(58, 58, 58, 0.9); // toast, activity-indicator 的背景颜色
 
 // search-bar
-@search-bar-fill: #efeff4;
+@search-bar-fill: #f0f0f0;
 @search-bar-height: 44 * @hd;
 @search-bar-input-height: 28 * @hd;
-@search-bar-font-size: 15 * @hd;
+@search-bar-font-size: 14 * @hd;
 @search-color-icon: #bbb; // input search icon 的背景色
 
 // notice-bar
@@ -172,8 +172,8 @@
 @switch-fill-android: @brand-primary;
 
 // tag
-@tag-height: 25 * @hd;
-@tag-height-sm: 15 * @hd;
+@tag-height: 24 * @hd;
+@tag-height-sm: 16 * @hd;
 @tag-color: @brand-primary;
 
 // keyboard
@@ -181,7 +181,7 @@
 @keyboard-confirm-tap-color: @brand-primary-tap;
 
 // picker
-@option-height: 42 * @hd;           // picker 标题的高度
+@option-height: 44 * @hd;           // picker 标题的高度
 
 // z-index
 @progress-zindex: 2000;
